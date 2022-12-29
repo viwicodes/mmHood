@@ -11,7 +11,7 @@ const Footer = () => {
 						<div className="col-lg-3">
 							<div className="first-item">
 								<div className="logo">
-									<img src="assets/images/mine/mmHoodLogo.png" alt="hexashop ecommerce templatemo"/>
+									<img src="/assets/images/mine/mmHoodLogo.png" alt="hexashop ecommerce templatemo"/>
 								</div>
 								<ul>
 									<li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
