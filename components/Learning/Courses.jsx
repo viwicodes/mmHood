@@ -1,4 +1,3 @@
-import React from 'react'
 // import OwlCarousel from 'react-owl-carousel'
 import dynamic from 'next/dynamic'
 
