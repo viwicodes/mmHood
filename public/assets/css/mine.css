@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 .blog-title{
     font-family: "Pacifico", cursive;
@@ -32,4 +33,18 @@
     height: 1000px;
     width: 100%;
     object-fit: cover;
+}
+
+.full-blog-desc{
+    font-family: "Roboto", cursive;
+    font-size: 1.2rem;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+
+#sideNav li a{
+    color: rgb(95, 95, 95);
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    padding: 5px;
 }
