@@ -1,10 +1,10 @@
 import Link from 'next/router'
 
-function HeroBlog({ url, alt, title, desc, page }) {
+function HeroBlog({ url, alt, title, desc, page, slug }) {
     return (
         <>
             <div class="card mb-3">
-                <a href={`/categories/${page}/something`}>
+                <a href={`/categories/${page}/${slug}`}>
                     <img
                         src={url}
                         class="card-img-top"

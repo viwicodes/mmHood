@@ -1,15 +1,6 @@
-import { useRouter } from 'next/router'
-import HeroBlog from "../../../components/Categories/components/HeroBlog.jsx";
-import BlogLeft from "../../../components/Categories/components/BlogLeft";
-import BlogRight from "../../../components/Categories/components/BlogRight";
 
-export default function specificCategories() {
-    const router = useRouter()
-    const { specifiCat } = router.query
-
-    return (
-        <>
-            <div class="container text-left" style={{ "marginTop": "200px" }}>
+categories/specifiCat/index
+<div class="container text-left" style={{ "marginTop": "200px" }}>
                 <div class="row align-items-start">
                     {/* Left side */}
                     <div class="col-md-8">
@@ -97,7 +88,3 @@ export default function specificCategories() {
                     </div>
                 </div>
             </div>
-
-        </>
-    )
-}
