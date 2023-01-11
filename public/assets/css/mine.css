@@ -1,48 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-.blog-title{
+.blog-title {
     font-family: "Pacifico", cursive;
     font-size: 3.2rem;
     padding-bottom: 30px;
     text-transform: capitalize;
 }
 
-.blog-desc{
-    font-family: "Poppins", cursive;
-    font-size: 1.2rem;
-}
-
-.sub-blog-title{
+#articles h2 {
     font-family: "Pacifico", cursive;
-    font-size: 2.4rem;
-    padding-bottom: 10px;
+    font-size: 3.2rem;
+    padding-bottom: 30px;
     text-transform: capitalize;
+    margin-top: 50px;
 }
 
-.sub-blog-desc{
-    font-family: "Poppins", cursive;
-    font-size: 1rem;
-}
-
-.blog-right{
-    width: 100%;
-}
-
-.prompt-img{
-    height: 1000px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.full-blog-desc{
+#articles p {
     font-family: "Roboto", cursive;
     font-size: 1.2rem;
     line-height: 30px;
     letter-spacing: 0.7px;
 }
 
-#sideNav li a{
+#articles blockquote {
+    /* flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color); */
+    border-left: 8px solid grey;
+    padding: 10px;
+    margin: 50px;
+}
+
+#article img {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+#articles blockquote h5 {
+    font-family: "Pacifico", cursive;
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.blog-desc {
+    font-family: "Poppins", cursive;
+    font-size: 1.2rem;
+}
+
+.sub-blog-title {
+    font-family: "Pacifico", cursive;
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.sub-blog-desc {
+    font-family: "Poppins", cursive;
+    font-size: 1rem;
+}
+
+.blog-right {
+    width: 100%;
+}
+
+.prompt-img {
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.full-blog-desc {
+    font-family: "Roboto", cursive;
+    font-size: 1.2rem;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+
+#sideNav li a {
     color: rgb(95, 95, 95);
     font-family: "Roboto", cursive;
     text-transform: uppercase;

@@ -3,15 +3,17 @@ title: My first blog
 slug: hello-world
 cat : "pregnancy"
 date: "31-05-2020"
+img : https://images.unsplash.com/photo-1671725501884-e832fb8d0d84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60
 ---
 
-Pellentesque condimentum velit vel justo rutrum, sit amet commodo diam tincidunt. Nunc diam massa, interdum ut aliquet at, scelerisque ac ex. Integer cursus sem ac pretium posuere. Ut at odio nulla. Phasellus nec ante luctus, egestas dui id, maximus dui. In aliquam elit sit amet sollicitudin luctus. Nunc nec leo quis ante vestibulum egestas. In dignissim libero vitae congue bibendum. Sed iaculis eros a leo pellentesque, et ultrices leo malesuada. Nullam ultrices rutrum accumsan. Pellentesque tempus sapien et vestibulum placerat.
+## Here's a Demo blog
 
-Donec ultrices in tortor eget facilisis. Pellentesque orci risus, vulputate consequat fermentum eget, euismod sed nulla. Sed luctus sapien quis magna lobortis porttitor. In porttitor nibh id tincidunt imperdiet. Suspendisse ultricies tellus dolor, et gravida tortor vehicula quis. Maecenas tempus est sit amet congue rhoncus. Vivamus vitae felis lacinia, viverra nibh id, pulvinar eros. In viverra venenatis ligula, vitae efficitur felis vehicula vitae. Vestibulum feugiat vel risus iaculis tincidunt.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam
 
 
-## Acknowledgements
+> ##### Somthing Inspirational
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.
