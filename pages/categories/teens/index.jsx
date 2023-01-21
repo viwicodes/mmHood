@@ -18,7 +18,7 @@ function pregnancy(props) {
                                     alt="This is a mother holding child"
                                     title={`${blog.title}`}
                                     desc="This is the very first props testing component for mmHood"
-                                    page={`pregnancy`}
+                                    page={`teens`}
                                 />
                                 {/* <div class="row row-cols-1 row-cols-md-2 g-4">
                                     <BlogLeft
@@ -110,12 +110,12 @@ export async function getStaticProps() {
     const matter = require("gray-matter");
     const { v4: uuid } = require("uuid");
 
-    const files = fs.readdirSync(`${process.cwd()}/contents/pregnancy`, "utf-8");
+    const files = fs.readdirSync(`${process.cwd()}/contents/teens`, "utf-8");
 
     const blogs = files
         .filter((fn) => fn.endsWith(".md"))
         .map((fn) => {
-            const path = `${process.cwd()}/contents/pregnancy/${fn}`;
+            const path = `${process.cwd()}/contents/teens/${fn}`;
             const rawContent = fs.readFileSync(path, {
                 encoding: "utf-8",
             });

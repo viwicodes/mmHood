@@ -107,7 +107,7 @@ function BlogPost(props) {
 export async function getStaticProps(context) {
 
   const slug = context.params.slug; // get slug from params
-  const path = `${process.cwd()}/contents/pregnancy/${slug}.md`;
+  const path = `${process.cwd()}/contents/school/${slug}.md`;
 
   // read file content and store into rawContent variable
   const rawContent = fs.readFileSync(path, {
@@ -135,7 +135,7 @@ export async function getStaticProps(context) {
 export async function getStaticPaths(context) {
   const fs = require("fs");
 
-  const path = `${process.cwd()}/contents/pregnancy`;
+  const path = `${process.cwd()}/contents/school`;
   const files = fs.readdirSync(path, "utf-8");
 
   const markdownFileNames = files
