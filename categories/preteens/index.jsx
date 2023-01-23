@@ -1,5 +1,5 @@
 import Link from "next/link";
-import HeroBlog from "../../../components/Categories/components/HeroBlog";
+import HeroBlog from "../../components/Categories/components/HeroBlog";
 
 
 function pregnancy(props) {

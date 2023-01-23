@@ -3,20 +3,20 @@ import Link from 'next/router'
 function HeroBlog({ url, alt, title, desc, page, slug }) {
     return (
         <>
-            <div class="card mb-3">
+            <div className="card mb-3">
                 <a href={`/categories/${page}/${slug}`}>
                     <img
-                        src={url}
-                        class="card-img-top"
+                        src={`http://localhost:1337${url}`}
+                        className="card-img-top"
                         alt={alt}
                     />
-                    <div class="card-body">
-                        <h5 class="card-title text-dark blog-title">{title}</h5>
-                        <p class="card-text blog-desc">
+                    <div className="card-body">
+                        <h5 className="card-title text-dark blog-title">{title}</h5>
+                        <p className="card-text blog-desc">
                             {desc}
                         </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                        <p className="card-text">
+                            <small className="text-muted">Last updated 3 mins ago</small>
                         </p>
                     </div>
                 </a>
