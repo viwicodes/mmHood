@@ -1,9 +1,11 @@
 import axios from 'axios'
 
+export const baseURL = "https://lionfish-app-i7tdd.ondigitalocean.app"
+
 const api = axios.create({
-    baseURL: "http:localhost:1337",
+    baseURL: baseURL,
     headers: {
-        Authorization: `Bearer a669eb8dd907800291999ee64415e43934fbe598a50fc56a3be85f0cef044a897e638a51381244129d7e2f52caeca00a275a3e49986a0a9c9e215f384048047e86208cc71eb42a50a0937e83321626501e9f4162201f5d08f839387859b5977a41e43a4b3ab883b721c28d66ac1975c21c02e55c77163bf6fa0ddc037d92fde7`
+        Authorization: `Bearer 5f38f8833267a8d580b77bf334b525c4f432157463e50a83bdc62df4d0fcab899345e3803c24467ef3d037782a6739e046d0ca53a248000ca05847aa4bd3a877e1bb2dc01a1d176048b9b8fcab9fe749cc5fbc61304dc37a062a486d96ba2b73544b651d11f2e28c466933b9885a52a4445dfa7f44d6d46a913d5bf1dcaa6d16`
     },
 });
 

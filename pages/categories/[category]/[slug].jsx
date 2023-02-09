@@ -1,4 +1,4 @@
-import { getArticlesBySlug } from "../../../http"
+import { baseURL, getArticlesBySlug } from "../../../http"
 import qs from "qs"
 import Link from "next/link"
 import markdown from "remark-parse"
@@ -9,6 +9,7 @@ import { unified } from "unified"
 
 function IndividualBlog({ article, blog }) {
     // console.log(article.items[0].attributes.Image.data.attributes.url)
+    console.log("This page is called")
     return (
         <>
             <div>
@@ -18,7 +19,7 @@ function IndividualBlog({ article, blog }) {
                         <div className='col-md-8'>
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src={`http://localhost:1337${article.items[0].attributes.Image.data.attributes.url}`} alt="Some alt text" className="card-img-top" />
+                                    <img src={`${baseURL}/${article.items[0].attributes.Image.data.attributes.url}`} alt="Some alt text" className="card-img-top" />
                                     <article id='articles' dangerouslySetInnerHTML={{ __html: blog.content }}></article>
                                 </div>
                             </div>
@@ -127,9 +128,9 @@ export async function getServerSideProps({ params }) {
             article: {
                 items: article.data
             },
-            blog : {
+            blog: {
                 ...data,
-                content : result.toString(),
+                content: result.toString(),
             }
         }
     }

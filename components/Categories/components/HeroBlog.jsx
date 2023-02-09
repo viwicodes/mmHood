@@ -1,12 +1,13 @@
-import Link from 'next/router'
+import { baseURL } from "../../../http"
 
 function HeroBlog({ url, alt, title, desc, page, slug }) {
+    console.log(`${baseURL}${url}`)
     return (
         <>
             <div className="card mb-3">
                 <a href={`/categories/${page}/${slug}`}>
                     <img
-                        src={`http://localhost:1337${url}`}
+                        src={`${baseURL}${url}`}
                         className="card-img-top"
                         alt={alt}
                     />

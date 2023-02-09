@@ -7,7 +7,7 @@ import qs from "qs"
 
 
 function Landing({ articles, slug }) {
-    // console.log(articles)
+    console.log("articles")
     if (articles.items.length > 0) {
         {
             return (
