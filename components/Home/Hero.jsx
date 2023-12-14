@@ -10,7 +10,7 @@ const Hero = () => {
 							<div className="left-content">
 								<div className="thumb">
 									<div className="inner-content">
-										<h4>Montessori and Early Education</h4>
+										<h4>This is a check and Early Education</h4>
 										<span>Be the best Mom you could be.</span>
 										<div className="main-border-button">
 											<a href="#">Purchase Now!</a>
